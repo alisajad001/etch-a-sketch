@@ -8,7 +8,6 @@ Welcome to the Etch-A-Sketch project! This project is a simple web-based impleme
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
