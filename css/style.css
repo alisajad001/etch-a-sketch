@@ -25,7 +25,11 @@ h1 {
 }
 
 .item {
-  border: 1px solid #000;
+  border: 1px solid #0000003d;
+}
+
+.item.active {
+  background-color: #df6973;
 }
 
 .reset-btn {

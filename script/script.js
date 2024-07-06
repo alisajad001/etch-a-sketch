@@ -17,6 +17,11 @@ const createDiv = (numberOfDivsToCreate) => {
 
       divEl.style.setProperty("flex", `${divHeight}%`);
       divEl.style.setProperty("height", `${divHeight}%`);
+
+      divEl.addEventListener("mouseenter", () => {
+        divEl.classList.add("active");
+      });
+
       container.appendChild(divEl);
     }
   }
