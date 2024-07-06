@@ -18,9 +18,14 @@ const createDiv = (numberOfDivsToCreate) => {
 
       divEl.style.setProperty("flex", `${divHeight}%`);
       divEl.style.setProperty("height", `${divHeight}%`);
+      let opacity = 0.1;
 
       divEl.addEventListener("mouseenter", () => {
-        divEl.classList.add("active");
+        if (opacity < 1) {
+          opacity += 0.1;
+
+          divEl.style.backgroundColor = `rgba(255, 0, 0, ${opacity})`;
+        }
       });
 
       container.appendChild(divEl);
