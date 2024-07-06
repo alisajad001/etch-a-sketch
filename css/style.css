@@ -26,6 +26,7 @@ h1 {
 
 .item {
   border: 1px solid #0000003d;
+  transition: 0.2s;
 }
 
 .item.active {
@@ -43,4 +44,15 @@ h1 {
   cursor: pointer;
   box-shadow: 5px 5px 0 #000;
   transition: 0.2s;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #5858ee;
+  text-decoration: none;
+  font-weight: bold;
 }

@@ -1,5 +1,6 @@
 const container = document.querySelector(".container");
 const resetButton = document.querySelector(".reset-btn");
+const eraseButton = document.querySelector(".erase-btn");
 
 // Creates div element based on input from user
 const createDiv = (numberOfDivsToCreate) => {
@@ -27,6 +28,7 @@ const createDiv = (numberOfDivsToCreate) => {
   }
 };
 
+// Start a new grid
 resetButton.addEventListener("click", () => {
   container.innerHTML = "";
   createDiv();
